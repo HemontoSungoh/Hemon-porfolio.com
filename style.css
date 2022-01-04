@@ -9,9 +9,17 @@ h1{
 }
 section{
     display: flex;
-    margin-left: 80px;
 }
-section img{
-    width: 80%;
-    margin-top: 30px;
+.right_side img{
+    width: 60%;
+    border-radius: 5px;
+ 
+    margin-left: 10px;
+}
+.left_side{
+    width:50%;
+    padding-left: 15%;
+}
+.right_side{
+    width:50%;
 }
