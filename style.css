@@ -1,8 +1,13 @@
 body{
     font-family: 'Piazzolla', serif;
+    background-color: black;
 }
 h1{
     font-size:50px;
+    color:white;
+}
+p{
+    color:white;
 }
 .header_orange{
     color:orange;
@@ -38,7 +43,7 @@ h1{
     font-weight: 700;
 }
 .box-shadow-s{
-    box-shadow: 10px 10px 40px #000000;
+    box-shadow: 10px 10px 40px white;
     width:40%;
     margin-left: 5%;
     padding: 4px;
@@ -59,5 +64,8 @@ h2{
 }
 footer p{
     text-align: center;
-    color:black;
+    color:white;
+}
+.exprience_area h1{
+    color:white;
 }
