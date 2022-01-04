@@ -4,7 +4,7 @@ body{
 h1{
     font-size:50px;
 }
-.h1_header{
+.header_orange{
     color:orange;
 }
 .flexible-container{
@@ -36,4 +36,28 @@ h1{
     text-decoration: none;
     color:white;
     font-weight: 700;
+}
+.box-shadow-s{
+    box-shadow: 10px 10px 40px #000000;
+    width:40%;
+    margin-left: 5%;
+    padding: 4px;
+    border-radius: 4px;
+}
+#web-dev-ex{
+    border-left:7px solid;
+    border-image: linear-gradient (blue,cyan);
+    border-image-slice: 1;
+}
+#baby-w-dev-ex{
+    border-left:7px solid;
+    border-image: linear-gradient (salmon,tomato);
+    border-image-slice: 1;
+}
+h2{
+    font-size: 40px;
+}
+footer p{
+    text-align: center;
+    color:black;
 }
