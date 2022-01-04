@@ -9,23 +9,29 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .right_side img{
-    width: 60%;
+    width: 50%;
     border-radius: 8px;
- 
-    margin-left: 10px;
+    margin-top: 10px;
+}
+.left_side img{
+    width:50%;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 .left_side{
     width:50%;
-    padding-left: 15%;
+    padding-left: 8%;
 }
 .right_side{
     width:50%;
+    padding-left: 0;
 }
 .section_button{
     background-image:linear-gradient(orange,tomato);
-    padding: 8px 25px;
+    padding: 8px 30px;
     border-radius: 5px;
     text-decoration: none;
     color:white;
